@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  body 
+  font-family: 'Montserrat', Arial, sans-serif;
   line-height: 1.6;
 }
 header {
@@ -36,3 +37,4 @@ footer {
   padding: 15px;
   margin-top: 40px;
 }
+
