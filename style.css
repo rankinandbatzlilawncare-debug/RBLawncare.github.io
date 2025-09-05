@@ -191,32 +191,7 @@ img {
 }
 
 /* ------------------------------
-   6. Testimonials Section
------------------------------- */
-.testimonials {
-  padding: 80px 20px;
-  background: #eafbea;
-  text-align: center;
-}
-
-.testimonials h2 {
-  margin-bottom: 40px;
-  font-size: 2rem;
-}
-
-.testimonial-card {
-  max-width: 500px;
-  margin: 20px auto;
-  padding: 25px;
-  border-left: 5px solid #2ecc71;
-  font-style: italic;
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
-}
-
-/* ------------------------------
-   7. Contact Section
+   6. Contact Section
 ------------------------------ */
 .contact {
   padding: 80px 20px;
@@ -267,7 +242,7 @@ img {
 }
 
 /* ------------------------------
-   8. Footer
+   7. Footer
 ------------------------------ */
 .footer {
   background: #333;
@@ -276,3 +251,4 @@ img {
   padding: 25px;
   font-size: 0.9rem;
 }
+
