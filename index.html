@@ -1,54 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>R&BLawncare</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>R&B Lawncare</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- CSS File -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>R&BLawncare</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="contact.html">Contact</a>
-    <a href="gallery.html">Gallery</a>
-  </nav>
-</header>
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="logo">R&B Lawncare</div>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<section>
-  <h2>Welcome to R&BLawncare</h2>
-  <p>We’re a small team of hardworking teens dedicated to keeping your yard looking its best. 
-     From mowing to seasonal cleanups, we bring reliable and affordable lawncare to our community.</p>
-</section>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h1>Beautiful Lawns, Guaranteed</h1>
+    <p>Your trusted local teens.</p>
+    <a href="#contact" class="btn">Get a Free Quote</a>
+  </section>
 
-<section>
-  <h2>Our Services</h2>
- <h2>What We Offer</h2>
-  <ul>
-    <li>Mowing & Edging</li>
-    <li>Trimming</li>
-    <li>Mulching</li>
-    <li>Shrub Trimming</li>
-    <li>Seasonal Cleanup (Details on services page)</li>
-  </ul>
-</section>
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <h3>Mowing and Edging </h3>
+        </div>
+        <div class="service-card">
+          <h3>Trimming </h3
+        </div>
+        <div class="service-card">
+          <h3>Mulching</h3>
+        </div>
+        <div class="service-card">
+          <h3>Aeration</h3>
+          <p>Shrub Trimming </p>
+           <div class="service-card">
+          <h3> Seasonal Cleanups (See service page for details.) </h3
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section>
-  <h2>Get in Touch</h2>
-  <p>📍 Serving:[Kansas City]</p>
-  <p>📞 Give us a Call or Text us:(816-345-5840) or (816-803-5225)</p>
-  <p>✉️ Email: RankinandBatzliLawncare@Gmail.com </p>
-</section>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are Teens who have been in the area for awhile and are ready to give back to the community that has blessed us in our lives. We offer reasonable pricing and hard world with honesty being a virtue we hold close to our hearts. </p>
+    </div>
+  </section>
 
-<footer>
-  <p>&copy; 2025 R&BLawncare. All rights reserved.</p>
-</footer>
+  <!-- Gallery Section -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="images/lawn1.jpg" alt="Freshly cut green lawn">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Get in touch today for a free quote!.</p>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="RankinandBatzlLawncare@gmail.com" required>
+        <input type="tel" placeholder="(816-803-5225) or (816-345-5840)" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 R&B Lawncare. All Rights Reserved.</p>
+  </footer>
 
 </body>
 </html>
-
