@@ -283,5 +283,9 @@ img {
   padding: 25px;
   font-size: 0.9rem;
 }
-
-
+/* Force sections to stack vertically */
+section {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
